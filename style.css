@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Smooch&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Hero {
+  background-image: url("images/lp.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  width: 100vw;
+}
+.Hero-heading {
+  margin-left: 4rem;
+  margin-top: 10rem;
+  font-style: italic;
+  color: #e9ecef;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+}
+
+.Hero-sub-heading {
+  font-style: italic;
+  color: #e9ecef;
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+  margin-left: 4rem;
+}
+.Hero-description {
+  margin-top: 2rem;
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Noto Serif", serif;
+  margin-left: 4rem;
+}
+
+.Brand {
+  font-family: "Smooch", cursive;
+  color: #f8f9fa;
+  font-size: 3rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.cta,
+.cta:visited {
+  color: #f8f9fa;
+  border-radius: 10px;
+  width: 21.7rem;
+  font-family: "Noto Serif", serif;
+  height: 4rem;
+  padding: 0.5rem 0 0 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #212529;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 10px #f8f9fa;
+  display: inline-block;
+  transition: 0.3s;
+}
+.cta:hover,
+.cta:active {
+  transform: translatey(-1rem);
+  box-shadow: 0 0 10px #f8f9fa;
+}
